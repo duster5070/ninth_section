@@ -1,0 +1,598 @@
+body
+ {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    color: #777;
+    height: 6000px;
+}
+.header
+{
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+}
+.navbar 
+{
+    background-color: transparent !important;
+    display: flex;
+}
+
+.header .navbar .container div .left_nav
+{
+    justify-self: flex-start;
+}
+
+.header .navbar .container div .center_nav
+{
+    margin: auto;
+    position: relative;
+    left: 100px;
+}
+.header .navbar .container div .center_nav ul li a:hover
+{
+    color: white;
+    transform: scale(1,1);
+}
+
+.header .navbar .container div .right_nav
+{
+    position: absolute;
+    right: 200px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 30px;
+    background: rgba(255, 255, 255, .1);
+}
+
+.navbar-light .navbar-nav .nav-link , .header .navbar .container div .right_nav li a
+{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
+}
+
+.header .navbar .container .left_nav
+{
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+.hero_section
+{
+     background: linear-gradient(to right ,#4dabff 0%,#62ddff 100%);
+     height: 105vh;
+}
+
+.hero_section .hero_inner 
+{
+    width: 100%;
+    height: 100%;
+}
+.hero_section .hero_inner .container , .hero_section .hero_inner .container .row
+{
+    height: 100%;
+}
+
+
+.hero_section .hero_inner .col-lg-5
+{
+    align-self: center;
+    color: white;
+}
+
+.hero_section .hero_inner .col-lg-5 .hero_content h2 
+{
+    font-size: 50px;
+    font-weight: 750;
+    font-family: 'Heebo' , sans-serif;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.hero_section .hero_inner .col-lg-5 .hero_content p
+{
+    font-family:'Roboto' , sans-serif ;
+    margin-bottom: 30px;
+}
+
+.hero_section .hero_inner .col-lg-5 a
+{
+    padding: 20px 30px;
+    margin-right: 15px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 550;
+}
+.hero_section .hero_inner .col-lg-5 a:first-of-type
+{
+    color: white;
+    background: rgba(255, 255, 255, .1);
+}
+
+.hero_section .hero_inner .col-lg-5 a
+{
+    background-color: white;
+    color: black;
+}
+
+.hero_section .hero_inner .col-7
+{
+   display: flex;
+}
+.hero_section .hero_inner .col-7 .left_hero
+{
+    align-self: center;
+} 
+
+.work_area
+{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.work_area .container .top_section h2
+{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.work_area .container .top_section p
+{
+    margin: auto 200px;
+}
+
+/* end of top section */
+
+/* start of bot section */
+
+.work_area .container .bot_section .bot_item
+{
+    margin-bottom: 20px;
+    background:transparent;
+}
+
+.work_area .container .bot_section .bot_item:hover i
+{
+    background: linear-gradient(to right ,#4dabff 0%,#62ddff 100%);
+}
+
+.work_area .container .bot_section .bot_item:hover h2
+{
+    color: #3bacf0;
+}
+
+.work_area .container .bot_section .bot_item i
+{
+    font-weight: 200;
+    font-size: 2.5rem;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background: #f9f9ff;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.work_area .container .bot_section h2
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.work_area .container .bot_section p
+{
+    margin: auto ;
+    max-width: 310px;
+    text-align: center;
+}
+
+/* the end of the second section */
+
+                                /* ////////////////////////////////////////////////////// */
+
+/* the start of the third section */
+.statistics , .carusal , .statistics_ag , footer
+{
+    background-color:#edf6ff ;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.nav 
+{
+    flex-wrap:wrap ;
+    border: none;
+}
+
+.statistics .container .top_statistics
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.nav-pills .nav-link
+{
+    padding: 20px 25px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.nav-pills .nav-link.active
+{
+    background-image:linear-gradient(to right ,#4dabff 0%,#62ddff 100%) ;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.statistics .container .bot_statistics
+{
+    padding-top: 70px;
+}
+
+.statistics .container .bot_statistics .left_side
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: center;
+    margin-bottom: 20px;
+    margin-top: 17px;
+}
+
+h3
+{
+    font-size: 2.5rem;
+    font-weight: 550;
+    color: black;
+    margin-bottom: 15px;
+}
+
+h6
+{
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.statistics .container .bot_statistics .left_side p
+{
+    margin-bottom: 30px;
+}
+
+
+.statistics .container .bot_statistics .left_side a 
+{
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+    background:linear-gradient(to right ,#4dabff 0%,#62ddff 100%) ;
+    margin-bottom: 20px;
+    
+}
+
+.statistics .container .bot_statistics .left_side a:hover
+{
+    background:linear-gradient(to left ,#4dabff 0%,#62ddff 100%) ;
+
+}
+
+/* the end of the third section */
+
+/* start of the fourth section */
+
+.screen , .price_sec , .demo
+{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.screen .container .title  , .price_sec .container .price_title , .carusal .container .carusal_title
+{
+    margin-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.screen .container .title h2 , .price_sec .container .price_title h2 , .carusal .container .carusal_title h2
+{
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: 'Heebo' , sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.screen .container .title p , .price_sec .container .price_title p , .carusal .container .carusal_title p
+{
+    max-width: 570px;
+    margin: auto;
+}
+.screen .container img
+{
+    margin: auto;
+}
+
+/* end of end fourth section*/
+
+/* the start of the fifth section */
+.price_sec .container .price_title , .carusal .container .carusal_title
+{
+    margin-bottom: 80px;
+}
+.price_sec .container .price_item
+{
+    border: 1px solid #eee;
+    border-radius: 7px;
+    margin: 20px;
+    overflow: hidden;
+
+}
+
+.price_sec .container .price_item:hover .price_top , .price_sec .container .price_item:hover .price_bot
+{
+    background:linear-gradient(to right ,#4dabff 0%,#62ddff 100%) ;
+    transform: scale(1.1,1.1);
+}
+.price_sec .container .price_item:hover .price_btn
+{
+    background: linear-gradient(to left ,white 0%,white 100%);
+    color: black;
+}
+.price_sec .container .price_item:hover h4 , .price_sec .container .price_item:hover h3 
+{
+    color: white;
+}
+
+
+.price_sec .container .price_top
+{
+background: #edf6ff;
+padding: 35px 0px;
+border-bottom: 1px solid #eeeeee;
+}
+
+.price_sec .container .price_top h4
+{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.price_sec .container .price_mid
+{
+    padding: 30px 0;
+}
+
+.price_sec .container .price_mid ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.price_sec .container .price_mid ul li
+{
+    margin-bottom: 15px;
+} 
+.price_sec .container .price_mid ul li a
+{
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    text-decoration: none;
+}
+
+.price_sec .container .price_bot 
+{
+    background-color: #edf6ff;
+    max-width: 240px;
+    margin: 0 auto 40px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+}
+
+
+.price_sec .container .price_bot h3
+{
+    font-size: 72px;
+}
+
+.price_sec .container .price_bot .dolar
+{
+    font-size: 24px;
+    padding-top:14px ;
+    display: inline-block;
+    vertical-align:top ;
+}
+
+.price_sec .container .price_bot .month
+{
+    font-size: 14px;
+    display: inline-block;
+}
+
+.price_sec .container .price_bot .price_btn
+{
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+    background:linear-gradient(to right ,#4dabff 0%,#62ddff 100%) ;
+    margin-bottom: 20px;
+    transition: all 1s;
+
+}
+
+/* end of hte fifth section */
+
+/* start of the sixth section */
+.carusal_item
+{
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-around;
+    min-width: 780px;
+}
+
+
+.carusal_div
+{
+    width: 45%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    transition: all 1s;
+}
+.carusal_div:hover
+{
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.carusal_div:hover .carusal_text h4
+{
+    color: #62ddff;
+}
+
+
+ .carusal_text h4
+{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Heebo',sans-serif;
+    color: black;
+    transition: all 0.5s;
+
+}
+.carusal_text i
+{
+    color: gold;
+    font-size: 12px;
+}
+
+
+.carusal_img
+{
+    padding-right: 10px;
+}
+
+/* the end of the sixth section */
+
+/* start section number 7 */
+.demo
+{
+    background-color: #3bacf0;
+}
+
+.demo .container .demo_main
+{
+    max-width: 780px;   
+    margin: auto;
+}
+
+.demo .container .demo_main h2
+{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Heebo',sans-serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.demo .container .demo_main p
+{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.demo .container .demo_main a
+{
+    text-decoration: none;
+    padding: 20px 30px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Heebo', sans-serif;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: background-color 0.5s;
+}
+
+.demo .container .demo_main a:hover
+{
+    background-color: transparent;
+    color: white;
+}
+
+/* end section number 7 */
+
+/* start section 8 */
+footer
+{
+    background-color: black;
+}
+
+footer .container .footer_main h3
+{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.input
+{
+    display: flex;
+    width: 100%;
+}
+.input input , .input button
+{
+    border: 0px;
+}
+.input input
+{
+    padding: 10px;
+    width: 70%;
+
+}
+
+
+.input button
+{
+    background-color: #3bacf0;
+    width: 12%;
+}
+
+.social_i i 
+{
+    color: rgba(255, 255, 255, 0.733);
+    transition: color 1.5s;
+    cursor: pointer;
+}
+
+.social_i i:hover
+{
+    color: #3bacf0;
+}
+
+
+/* end section 8 */
